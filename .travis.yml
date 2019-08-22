@@ -1,6 +1,13 @@
 language: node_js
-dist: trusty
+node_js:
+  - 10
 sudo: false
+
+branches:
+  except:
+    - gh-pages
+  only:
+    - master
 
 cache:
   directories:
