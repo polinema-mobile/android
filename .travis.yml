@@ -1,7 +1,13 @@
 language: node_js
+dist: trusty
+sudo: false
 branches:
   only:
     -master
+
+cache:
+  directories:
+    - nod_modules
 
 install:
   - npm install
