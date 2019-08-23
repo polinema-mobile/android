@@ -21,6 +21,8 @@ Android. Silahkan ikuti langkah-langkah di bawah ini:
 > `polinema.ac.id` maka ditulis menjadi `id.ac.polinema`, domain `dhanifudin.com`
 > menjadi `com.dhanifudin`.
 
+- Pilih bahasa yang digunakan yaitu: Java
+
 - Tunggu proses build hingga selesai.
 - Jalankan project anda dengan menekan tombol segitiga hijau.
 

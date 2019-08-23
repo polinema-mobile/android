@@ -4,7 +4,7 @@ Lewati modul ini jika anda sudah memiliki java sdk di komputer anda, untuk menge
 
 ![java](./images/01-java-error.png)
 
-![javc](./images/02-javac-error.png)
+![javac](./images/02-javac-error.png)
 
 Jika kedua perintah tersebut gagal dilakukan berarti anda belum menginstall JRE dan JDK dengan benar.
 
