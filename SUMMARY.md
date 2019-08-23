@@ -6,3 +6,5 @@
     - [Instalasi Android Studio](01/01-instalasi-android-studio.md)
     - [Instalasi Emulator Android](01/02-instalasi-emulator-android.md)
     - [Developer Options](01/03-developer-options.md)
+    - [Hello Android](01/04-hello-android.md)
+    - [Tugas](01/05-tugas.md)
