@@ -9,6 +9,7 @@ Berikut ini langkah langkah installasi git pada sistem operasi windows 10.
 ### Double Klik Installer dan ikuti langkah langkahnya
 
 Halaman lisensi git, perhatikan lisensi nya dengan seksama apabila anda tidak cocok dengan lisensi yang di berikan jangan melanjutkan installasi :)
+
 ![install](images/installgit/01-install-git.png)
 
 Pilihlah lokasi install yang sesuai menurut kebutuhan anda :
