@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gitbook serve",
     "build": "gitbook build",
-    "book": "gitbook pdf _book/pemrograman-mobile.pdf"
+    "book": "gitbook pdf . _book/pemrograman-mobile.pdf"
   },
   "keywords": [],
   "author": "",
