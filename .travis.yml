@@ -18,7 +18,6 @@ install:
 
 script:
   - npm run build
-  - npm run book
 
 deploy:
   provider: pages
