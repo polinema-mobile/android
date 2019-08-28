@@ -1,5 +1,5 @@
 # Pendahuluan
-
+Pada praktikum kali ini anda akan mempelajari lebih dalam mengenai android studio, git, struktur project android dan activity lifecycle pada aplikasi android.
 
 ## Tujuan Pembelajaran
 - Mahasiswa mampu menggunakan Android Studio dengan baik (menu, window, shortcut) 
