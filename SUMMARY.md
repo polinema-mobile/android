@@ -11,3 +11,8 @@
   - [Developer Options](01/06-developer-options.md)
   - [Hello Android](01/07-hello-android.md)
   - [Tugas](01/08-tugas.md)
+- [Bab 2 - Android Activity](02/00-pendahuluan-ch02.md)
+  - [Tour Android Studio](02/01-tour-android-studio.md)
+  - [Struktur Folder Project](02/02-struktur-folder-project-android-studio.md)
+  - [Version Control Android Studio](02/03-integrasi-git-android-studio.md)
+  - [Android Activity LIfecycle](02/04-android-activity-lifecycle.md)
