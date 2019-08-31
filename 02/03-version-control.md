@@ -77,3 +77,24 @@ berikut:
  keluar notifikasi pada **Android Studio** seperti pada gambar berikut.
 
   ![Successfully Shared on Project](./images/successfully-shared-project.png)
+
+- Bukalah fiile `activity_main.xml` kemudian ubah pesan `Hello World!` menjadi
+ `Praktikum Pemrograman Mobile`.
+
+- Perhatikan pada bagian bawah **Android Studio** terdapat toolbar **Version
+ Control**. Buka toolbar tersebut atau anda dapat menggunakan shortcut `Ctrl +
+ 9` (`Cmd + 9` bagi pengguna OSX). Pada toolbar tersebut mencatat semua
+ perubahan file yang terjadi dalam satu repository.
+
+  ![Version Control](./images/version-control.png)
+
+- Pilih file yang perubahannya ingin dicatat, kemudian tekan menu
+ ![Commit](./images/commit.png)
+
+- Akan muncul dialog yang menunjukkan file yang akan di-*commit* serta perbedaan
+ (diff) file dengan versi file sebelumnya. Pada isian **Commit Message**
+ digunakan untuk memberikan informasi perubahan. Silahkan isi pesan sesuai
+ dengan perubahan yang dilakukan, contoh: `Merubah pesan menjadi Praktikum
+ Pemrograman Mobile`.
+
+  ![Commit Changes](./images/commit-changes.png)
