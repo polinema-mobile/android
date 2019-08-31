@@ -14,5 +14,5 @@
 - [Bab 2 - Android Activity](02/00-pendahuluan-ch02.md)
   - [Tour Android Studio](02/01-tour-android-studio.md)
   - [Struktur Folder Project](02/02-struktur-folder-project-android-studio.md)
-  - [Version Control Android Studio](02/03-integrasi-git-android-studio.md)
+  - [Version Control Android Studio](02/03-version-control.md)
   - [Android Activity LIfecycle](02/04-android-activity-lifecycle.md)
