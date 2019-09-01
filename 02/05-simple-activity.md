@@ -113,3 +113,6 @@ mempelajarinya.
     outputText.setText("Hello " + name);
   }
   ```
+
+- Tambahkan semua perubahan ke dalam repository dengan git. Kemudian commit
+    dan push ke repository GitHub anda.

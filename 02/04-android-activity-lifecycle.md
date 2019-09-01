@@ -143,4 +143,5 @@ sebuah activity.
 
   ![activity](images/avtivity2.jpg)
 
-
+12. Tambahkan semua perubahan ke dalam repository dengan git. Kemudian commit
+    dan push ke repository GitHub anda.
