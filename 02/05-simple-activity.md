@@ -10,6 +10,28 @@ mempelajarinya.
 - Pada project **AndroidLifecycle** tambahkan Activity (Empty Activity), beri
  nama `SimpleActivity`.
 
+- Ubah `SimpleActivity` menjadi main aplikasi android pada `AndroidManifest.xml`
+ sehingga menjadi seperti berikut.
+
+  ```xml
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".SimpleActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".MainActivity"></activity>
+  </application>
+  ```
+
 - Buka layout `activity_simple.xml`, ubah ke mode text kemudian ganti dengan code berikut:
 
   ```xml
