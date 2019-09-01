@@ -95,6 +95,6 @@ berikut:
  (diff) file dengan versi file sebelumnya. Pada isian **Commit Message**
  digunakan untuk memberikan informasi perubahan. Silahkan isi pesan sesuai
  dengan perubahan yang dilakukan, contoh: `Merubah pesan menjadi Praktikum
- Pemrograman Mobile`.
+ Pemrograman Mobile`. Kemudian tekan tombol **Commit** untuk melakukan commit.
 
   ![Commit Changes](./images/commit-changes.png)
