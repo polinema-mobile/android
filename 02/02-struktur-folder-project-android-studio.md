@@ -84,6 +84,12 @@ Perhatikan pada tag `intent-filter` terdapat tag child `category` dengan propert
 
 ## Java
 
+Isi dari folder java dapat dilihat pada gambar dibawah ini :
+
+![layoutgambar](images/0208-isifolderjava.png)
+
+Perhatikan terdapat tiga folder dengan nama yang sama sesuai dengan package name pada file manifest, dimana pada manifest package name nya adalah `polinema.ac.id.myapplication` maka pada folder java terdapat folder dengan nama yang sesuai dengan potongan pertama pada package name yaitu `polinema`
+
 ## Java(Generated)
 
 ## Res
