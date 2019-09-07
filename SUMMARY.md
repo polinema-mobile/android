@@ -18,3 +18,5 @@
   - [Android Activity LIfecycle](02/04-android-activity-lifecycle.md)
   - [Activity Sederhana](02/05-simple-activity.md)
   - [Tugas](02/06-tugas.md)
+- [Bab 3 - Desain Layout](03/00-pendahuluan-ch03.md)
+  - [Linear Layout](03/01-linear-layout.md)
