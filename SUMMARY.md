@@ -20,3 +20,6 @@
   - [Tugas](02/06-tugas.md)
 - [Bab 3 - Desain Layout](03/00-pendahuluan-ch03.md)
   - [Linear Layout](03/01-linear-layout.md)
+  - [Relative Layout](03/02-relative-layout.md)
+  - [Constraint Layout](03/03-constraint-layout.md)
+  - [Latihan Konversi Layout](03/04-latihan-konversi-layout01.md)
