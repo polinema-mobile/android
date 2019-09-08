@@ -1,5 +1,7 @@
 # Membuat aplikasi dengan relative layout
 
+## Praktikum
+
 - Bukalah project **RelativeLayout** kemudian ubah default layout pada
  `activity_main.xml` menggunakan layout `RelativeLayout`. Sehingga kode program
  dan tampilan berubah seperti gambar di bawah ini.
