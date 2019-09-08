@@ -1,6 +1,18 @@
 # Membuat aplikasi dengan linear layout
 
-- Buatlah kembali sebuah project baru dengan konfigurasi yang disesuaikan dengan kebutuhan anda seperti pada langkah praktikum sebelumnya.
+## Praktikum
+
+- Fork project pada tautan berikut sebagai starter project [Starter Project
+ 03](https://github.com/polinema-mobile/2019-mobile03)
+
+- Tunggu proses Fork sampai selesai kemudian clone project menggunakan perintah
+
+  ```
+  git clone https://github.com/<username anda>/2019-mobile03.git
+  ```
+
+- Bukalah project **LinearLayout** yang sudah disediakan.
+
 - Bukalah file `activity_main.xml` kemudian buka dengan menggunakan design mode.
 
 !['activity'](images/02-linear-layout_01.png)
@@ -44,7 +56,7 @@ Untuk memahami penggunaannya lakukan langkah percobaaan berikut ini :
 
 !['activity'](images/02-linear-layout-text-mode.png)
 
-- Hapuslah tag xml `TextView` kemudian isilah LinearLayout dengan dua buah child lain yang juga sebuah LinearLayout. Hasilnya akanb seperti pada gambar dibawah ini.
+- Hapuslah tag xml `TextView` kemudian isilah LinearLayout dengan dua buah child lain yang juga sebuah LinearLayout. Hasilnya akan seperti pada gambar dibawah ini.
 
 !['activity'](images/02-linear-layout-nested.png)
 
@@ -61,3 +73,6 @@ Untuk memahami penggunaannya lakukan langkah percobaaan berikut ini :
   - ubah _layout_weight_ dari salah satu **LinearLayout**
 
   Ambillah kesimpulan dari percobaan tersebut.
+
+- Commit semua perubahan yang telah anda lakukan, kemudian push ke akun GitHub
+ anda!
