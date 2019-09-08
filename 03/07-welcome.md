@@ -11,7 +11,8 @@ layout yang digunakan adalah constraint layout. Pastikan layout xml dimulai
 dengan tag berikut ini. Tambahkan background warna putih.
 
 ```xml
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -19,7 +20,7 @@ dengan tag berikut ini. Tambahkan background warna putih.
     android:background="#FFFFFF"
     tools:context=".WelcomeSlide">
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 Pada desain layout terdapat beberapa komponen, yaitu:
@@ -136,3 +137,6 @@ Buatlah sebuah `TextView` dengan id `login_text`. Ganti font dengan `montserrat_
 ```
 
 ![login](images/0305login.png)
+
+ > Commit semua perubahan yang telah anda lakukan, kemudian push ke akun GitHub
+ > anda!

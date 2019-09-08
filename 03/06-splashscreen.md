@@ -63,3 +63,6 @@ diinginkan untuk splash screen dapat Anda lihat pada folder `design`.
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView" />
 ```
+
+ > Commit semua perubahan yang telah anda lakukan, kemudian push ke akun GitHub
+ > anda!
