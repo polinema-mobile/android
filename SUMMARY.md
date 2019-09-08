@@ -23,3 +23,7 @@
   - [Relative Layout](03/02-relative-layout.md)
   - [Constraint Layout](03/03-constraint-layout.md)
   - [Latihan Konversi Layout](03/04-latihan-konversi-layout01.md)
+  - [Latihan Konversi Layout 02](03/05-latihan-konversi-layout02.md)
+    - [Splash Screen](03/06-splashscreen.md)
+    - [Welcome](03/07-welcome.md)
+    - [Forms](03/08-forms.md)
