@@ -219,10 +219,6 @@ Buat button untuk fungsi Log In. Pada button tersebut, ganti teks button menjadi
 
 ## Membuat Activity Reset Password
 
-Buatlah activity baru dengan nama ResetPassword. Halaman ini akan digunakan sebagai form untuk melakukan reset password. Untuk membuatnya activity tersebut adalah Klik Kanan di package dtschapter03_starter->new->activity->empty activity.
-Langkah selanjutnya adalah melakukan desain layout pada file `activity_reset_password.xml`, Berikut ini screen shot tampilan aplikasi yang diharapkan.
-![ResetPass](images/ResetPassword.png)
-
 ### Edit activity_reset_password.xml
 
 Untuk membuat form reset password seperti gambar diatas yaitu dengan mengubah isi file dari `activity_reset_password.xml`, pada layout ini akan digunakan constraint layout pastikan layout xml dimulai dengan tag berikut ini.
@@ -425,10 +421,7 @@ Buat Button Change Password, beri text `CHANGE PASSWORD`.
         />
 ```
 
-## Membuat Activity ForgotPassword
-
-Buatlah activity baru dengan nama ForgotPassword. Halaman ini akan digunakan sebagai form lupa password. Untuk membuatnya activity tersebut adalah Klik Kanan di package dtschapter03_starter->new->activity->empty activity.
-Langkah selanjutnya adalah melakukan desain layout pada file `activity_forgot_password.xml`,Berikut ini screen shot tampilan aplikasi yang diharapkan.
+## Membuat ForgotPasswordActivity
 
 ![forgot](images/ForgotPassword.png)
 
@@ -444,7 +437,7 @@ Untuk membuat form lupa password seperti gambar diatas yaitu dengan mengubah isi
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".ForgotPassword">
+  tools:context=".ForgotPasswordActivity">
 ```
 
 Pada desain layout terdapat beberapa komponen yaitu:
