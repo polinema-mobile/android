@@ -1,6 +1,8 @@
 # Membuat aplikasi dengan relative layout
 
-- Untuk memahami **relative layout**, kembalikan kode program pada `activity_main.xml` ke kondisi awal. Ubahlah _layout_-nya menjadi **relative layout**. Sehingga kode program dan tampilan berubah seperti gambar di bawah ini.
+- Bukalah project **RelativeLayout** kemudian ubah default layout pada
+ `activity_main.xml` menggunakan layout `RelativeLayout`. Sehingga kode program
+ dan tampilan berubah seperti gambar di bawah ini.
 
 !['relativelayout'](images/02-relative-layout.png)
 
@@ -36,3 +38,6 @@ Dengan konfigurasi properties seperti di atas, sebuah item akan diposisikan di s
 !['relativelayout'](images/02-relative-layout-button-baru.png)
 
 - Berdasarkan percobaan di atas cobalah membuat layout yang sebelumnya menggunakan _linear layout_ dengan _relative layout_.
+
+- Commit semua perubahan yang telah anda lakukan, kemudian push ke akun GitHub
+ anda!
