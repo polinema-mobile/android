@@ -1,4 +1,4 @@
-# Latihan
+# Latihan 1
 
 Pada latihan kali ini telah disediakan desain layout, dimana anda harus
 mengubahnya ke layout android. Silahkan buka project **MusicPlayer** pada
