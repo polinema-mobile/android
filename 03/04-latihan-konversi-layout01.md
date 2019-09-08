@@ -1,7 +1,13 @@
-# Latihan
+# Latihan 1
 
-Pada latihan kali ini silahkan Anda belajar mengkonversi layout dengan desain dibawah ini,
+Pada latihan kali ini telah disediakan desain layout, dimana anda harus
+mengubahnya ke layout android. Silahkan buka project **MusicPlayer** pada
+starter code. Pada project ini sudah disediakan file drawable serta font yang
+digunakan pada desain layout tersebut.
+
+> **Perhatian**:
+> Pada informasi **Artist** dan **Judul Lagu**, anda wajib menggunakan informasi
+> yang berbeda dengan desain.
 
 ![layout latihan](images/02-praktik-layout-player.png)
 
-Untuk memulai latihan ini silahkan clone starter code pada repository berikut ini [Starter Code Chapter 2](https://github.com/polinema-mobile/dtschapter02-starter). Pada code starter tersebut, sudah disediakan file drawable dan font yang digunakan pada layout diatas.
