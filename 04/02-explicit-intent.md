@@ -25,6 +25,7 @@
   > sebelum dipanggil `startActivity()`.
 
 - Jalankan project, kemudian perhatikan apa yang terjadi!
+- Tekan tombol **back** untuk kembali ke Activity sebelumnya.
 - Perhatikan kembali, pada file `activity_main.xml` tambahkan atribut
 - `android:onClick="handleExit"` pada tombol dengan id `@+id/button_exit`
 - Generate handler untuk menangani aksi ketika tombol ditekan dengan shortcut
@@ -32,6 +33,10 @@
 - Pilih menu `Create 'handleExit(View)' in 'MainActivity'`
 - Pada handler ini, tambahkan logika untuk menutup/mengakhiri `Activity` dengan
  menggunakan fungsi `finish()`.
+
+ > **Catatan**: Jika anda menginginkan Activity ketika ditekan tombol **back**
+ > tidak kembali ke Activity sebelumnya anda bisa menambahkan method `finish()`
+ > setelah `startActivity()`.
 
 ## Pertanyaan
 
