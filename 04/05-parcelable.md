@@ -2,6 +2,14 @@
 
 ## Teori
 
+Untuk memudahkan pengiriman banyak data melalui Bundle, dapat menggunakan
+Parcelable. Parcelable dapat memudahkan pengiriman Obyek secara langsung.
+Sebagai contoh: data `username`, `name` dan `age`, dapat dikirimkan secara
+langsung dengan membuat obyek `User` yang mengimplementasi `Parcelable`.
+
+> **Catatan**: Untuk memudahkan implementasi `Parcelable`, silahkan tambahkan
+> plugin **Android parcelable code generator** melalui **Settings** -> **Plugins**
+
 ## Praktikum
 
 - Pada praktikum sebelumnya, data yang dikirimkan dapat dimodelkan menjadi data
