@@ -2,6 +2,16 @@
 
 ## Teori
 
+Pemanggilan Intent secara explicit dengan menentukan nama Activity tujuan.
+Intent membutuhkan dua parameter, yang pertama adalah `Context` (dapat
+didapatkan dari `Activity` atau `Application`) dan berikutnya adalah
+nama `NamaActivity.class`.
+
+```java
+Intent intent = new Intent(this, NextActivity.class);
+startActivity(intent);
+```
+
 ## Praktikum
 
 - Bukalah project `Intent` yang telah anda clone, dengan Android Studio.
