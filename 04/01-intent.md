@@ -21,15 +21,19 @@ ada 3 cara yang dapat dilakukan:
 
 Terdapat 2 model Intent dalam pemrograman Android yaitu:
 
-### Explicit Intent
+## Explicit Intent
 
 Dikatakan intent explicit karena intent tersebut biasanya dibuat oleh seorang
 programmer berdasarkan kebutuhan yang ada. Untuk memanggil intent tersebut
 biasanya digunakan nama kelas, misalkan `id.ac.polinema.WelcomeActivity`
 
-### Implicit Intent
+## Implicit Intent
 
 Model intent ini sebaliknya dari intent explicit, kita tidak perlu menggunakan
 nama kelas untuk memanggilnya. Intent model ini sudah disediakan oleh system
 android, sebagai contoh kita akan melakukan pemanggilan telp maka seorang
 programmer tanpa harus membuat intent untuk melakukan pemanggilan telp.
+
+> **Catatan**: Silahkan clone [Starter Code Mobile
+> 04](https://github.com/polinema-mobile/2019-mobile04) terlebih dahulu, sebelum
+> memulai praktikum.
