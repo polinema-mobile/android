@@ -2,6 +2,29 @@
 
 ## Teori
 
+Terkadang pada aplikasi Android yang dibangun, membutuhkan activity bawaan yang
+telah disediakan oleh Android. Pemanggilan Intent ini dilakukan secara implicit.
+Pada umumnya untuk melakukan ini, cukup dengan mendefinisikan aksi tertentu
+(dapat menggunakan konstanta pada Intent yang umumnya menggunakan prefiks
+`ACTION`).
+
+Aplikasi yang umum digunakan antara lain:
+
+- Call
+- Dialpad
+- Contact
+- Browser
+- Call Log
+- Gallery
+- Camera
+
+Sebagai contoh pemanggilan Gallery yang berisi gambar, dapat dilihat pada kode
+berikut.
+
+```java
+Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+```
+
 ## Praktikum
 
 - Buka dan amati file `MainActivity.java` dan `activity_main.xml` dalam project
