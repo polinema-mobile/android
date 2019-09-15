@@ -27,3 +27,10 @@
     - [Splash Screen](03/06-splashscreen.md)
     - [Welcome](03/07-welcome.md)
     - [Forms](03/08-forms.md)
+
+- [Bab 4 - Intent](04/00-pendahuluan.md)
+    - [Intent](04/01-intent.md)
+    - [Explicit Intent](04/02-explicit-intent.md)
+    - [Implicit Intent](04/03-implicit-intent.md)
+    - [Android Bundle](04/04-bundle.md)
+    - [Parcelable](04/05-parcelable.md)
