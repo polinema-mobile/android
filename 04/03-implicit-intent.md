@@ -59,7 +59,6 @@
  berikut untuk menangani logika pemrosesan url gambar.
 
   ```java
-  super.onActivityResult(requestCode, resultCode, data);
   if (requestCode == RESULT_CANCELED) {
       return;
   }
