@@ -34,3 +34,5 @@
     - [Implicit Intent](04/03-implicit-intent.md)
     - [Android Bundle](04/04-bundle.md)
     - [Parcelable](04/05-parcelable.md)
+
+- [Tips - Update Forked Repository](./tips/update-forked-repository.md)
