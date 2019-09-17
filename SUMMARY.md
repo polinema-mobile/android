@@ -34,5 +34,13 @@
     - [Implicit Intent](04/03-implicit-intent.md)
     - [Android Bundle](04/04-bundle.md)
     - [Parcelable](04/05-parcelable.md)
+- [Bab 5 - Fragment](05/00-pendahuluan.md)
+    - [Pengenalan Fragment](05/01-fragment.md)
+    - [Embedded Fragment](05/02-embedded-fragment.md)
+    - [Dynamic Fragment](05/03-dynamic-fragment.md)
+    - [Fragment Lifecycle](05/04-fragment-lifecycle.md)
+    - [Komunikasi Antar Fragment](05/05-fragment-communication.md)
+    - [Fragment Multiple Layout](05/06-fragment-multiple-layout.md)
+
 
 - [Tips - Update Forked Repository](./tips/update-forked-repository.md)
