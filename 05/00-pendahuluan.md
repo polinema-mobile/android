@@ -13,3 +13,4 @@ Android.
 
 1. Laptop atau PC
 2. Android Studio
+3. Starter code ada pada repository berikut ini : silahkan fork dan clone ke github anda masing masing
