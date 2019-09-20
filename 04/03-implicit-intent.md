@@ -82,7 +82,7 @@ Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_
  berikut untuk menangani logika pemrosesan url gambar.
 
   ```java
-  if (requestCode == RESULT_CANCELED) {
+  if (resultCode == RESULT_CANCELED) {
       return;
   }
 
