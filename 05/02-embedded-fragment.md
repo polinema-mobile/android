@@ -4,6 +4,8 @@ Embedded fragment adalah fragment yang dipasang ke sebuah activity dengan cara m
 
 ## Langkah Percobaan
 
+### Modifikasi Main Activity
+
 - Bukalah project "Praktikum Fragment" menggunakan Android Studio anda.
 - Buatlah sebuah package baru pada project anda dengan nama `activities`. Pada package ini nanti akan di isi activity baru yang menjadi wadah bagi fragment yang akan dibuat. Langkah pembuatannya terlihat pada gambar dibawah ini :
 
@@ -31,10 +33,19 @@ Embedded fragment adalah fragment yang dipasang ke sebuah activity dengan cara m
   ![layoutjava](images/06-layout-button.png)
   ![layoutjava](images/07-layout-button.png)
 
+### Tambah StaticActivity
+
 - Pada package activity buatlah sebuah empty activity baru untuk menjadi wadah bagi fragment static, berilah nama activity tersebut dengan nama `StaticActivity`
   ![layoutjava](images/08-static-activity.png)
 
   ![layoutjava](images/09-static-activity.png)
+
+### Modifikasi Main Activity
+
+- Pada `MainActivity` lakukan modifikasi isi dari fungsi `handlerClickStaticFragment` sehingga ketika tombol ditekan activity berpindah dari main ke static activity.
+  > Dapat dilakukan dengan menggunakan intent yang dipelajari pada chapter 04
+
+### Tambah Fragment
 
 - Pada package `fragments` buatlah sebuah `blank fragment` dan berilah nama `red fragment`, perhatikan proses pembuatan fragment ini dimana dua opsi `include fragment factory` dan `include iterface callback` **tidak** dipilih
 
@@ -44,3 +55,30 @@ Embedded fragment adalah fragment yang dipasang ke sebuah activity dengan cara m
 - Ubah lah tampilan dari fragment yang baru saja dibuat menjadi seperti berikut ini.
 
   ![layoutjava](images/12-red-fragment.png)
+
+- Lakukan langkah yang sama dalam membuat fragment baru dengan nama `blue fragment` dan buatlah tampilan fragment tersebut seperti pada gambar dibawah ini.
+
+  ![layoutjava](images/13-blue-fragment.png)
+
+### Embed Fragment ke StaticActivity
+
+- Untuk mengembed / menempelkan fragment ke activity dapat dilakukan dengan memodifikasi xml dari activity tersebut.
+- Bukalah file `activity_static` kemudian modifikasi dengan menggunakan kode program berikut ini :
+
+```xml
+    <fragment
+        android:id="@+id/red_fragment_placeholder"
+        android:name="polinema.ac.id.praktikumfragment.fragments.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+```
+
+- Jalankan program periksa apa yang terjadi pada saat anda menekan tombol Static Fragment
+
+## Tugas
+
+- Ubahlah layout Static Activity, sehingga `red_fragment` yang sebelumnya mengisi penuh satu layar menjadi mengisi setengah layar dan setengah layar sisanya di isi oleh `blue_fragment`
