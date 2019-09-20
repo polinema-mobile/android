@@ -10,27 +10,27 @@ Pengiriman data melalui Bundle, dapat digunakan salah satu cara berikut:
 
 1. Menggunakan Bundle dari Intent
 
-```java
-Intent intent = new Intent(this, Example.class);
-Bundle extras = intent.getExtras();
-extras.putString(key, value);
-```
+  ```java
+  Intent intent = new Intent(this, Example.class);
+  Bundle extras = intent.getExtras();
+  extras.putString(key, value);
+  ```
 
 2. Menginstansiasi Bundle
 
-```java
-Intent intent = new Intent(this, Example.class);
-Bundle bundle = new Bundle();
-bundle.extras.putString(key, value);
-intent.putExtras(bundle);
-```
+  ```java
+  Intent intent = new Intent(this, Example.class);
+  Bundle bundle = new Bundle();
+  bundle.extras.putString(key, value);
+  intent.putExtras(bundle);
+  ```
 
 3. Menggunakan method `putExtra()` pada Intent.
 
-```java
-Intent intent = new Intent(this, Example.class);
-intent.putExtra(key, value);
-```
+  ```java
+  Intent intent = new Intent(this, Example.class);
+  intent.putExtra(key, value);
+  ```
 
 Pada Activity yang dikirimkan data, diperlukan proses pembacaan data. Untuk
 pembacaan data, disesuaikan dengan tipe data yang dikirimkan. Di bawah ini
