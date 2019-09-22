@@ -40,5 +40,8 @@
   - [Embedded Fragment](05/02-embedded-fragment.md)
   - [Dynamic Fragment](05/03-dynamic-fragment.md)
   - [Fragment Backstack](05/04-backstack-fragment.md)
+  - [Fragment Transition](05/05-transition-fragment.md)
+  - [Latihan Load Fragment](05/06-latihan-load-fragment.md)
+  - [Tugas Fragment](05/07-tugas-fragment.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
