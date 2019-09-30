@@ -44,4 +44,11 @@
   - [Latihan Load Fragment](05/06-latihan-load-fragment.md)
   - [Tugas Fragment](05/07-tugas-fragment.md)
 
+- [Bab 6 - Komunikasi Fragment](06/00-pendahuluan.md)
+  - [Komunikasi Fragment](06/01-fragment.md)
+  - [Bundle](06/02-bundle.md)
+  - [Listener](06/03-listener.md)
+  - [Method](06/04-method.md)
+  - [Tugas](06/05-tugas.md)
+
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
