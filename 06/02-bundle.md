@@ -130,7 +130,7 @@ public class DemoFragment extends Fragment {
 
   > **Catatan**: Tulislah nama anda pada kode di atas.
 
-- Pada method `onCreateOptionsMenu` tambahkan, kode untuk mereplace Fragment
+- Pada method `onOptionsItemSelected` tambahkan, kode untuk mereplace Fragment
  secara dinamis.
 
   ```java
