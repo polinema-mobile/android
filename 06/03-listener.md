@@ -157,7 +157,7 @@ mengimplementasikan interface ini.
 
 - Buatlah layout pada `fragment_broca_index.xml` sesuai dengan gambar berikut.
 
-  ![Layout BrocaIndexFragment](./images/broca-index-fragment.png)
+  ![Layout BrocaIndexFragment](./images/broca-index-fragment-layout.png)
 
 - Bukalah file `BrocaIndexFragment.java`, perhatikan pada bagian bawah file.
  Modifikasi interface menjadi berikut.
