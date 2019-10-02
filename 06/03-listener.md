@@ -52,7 +52,8 @@ mengimplementasikan interface ini.
   }
   ```
 
-- Bind layout dengan `findViewById` untuk tombol yang dibutuhkan.
+- Bind layout dengan `findViewById` untuk tombol yang dibutuhkan pada method
+ `onCreateView`.
 
   ```java
   Button brocaButton = view.findViewById(R.id.button_broca);
