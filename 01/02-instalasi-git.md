@@ -6,7 +6,7 @@ Lewati modul ini jika anda sudah mempunyai Git pada sistem operasi anda.
 
 Berikut ini langkah langkah installasi git pada sistem operasi windows 10.
 
-### Double Klik Installer dan ikuti langkah langkahnya
+### Double click installer dan ikuti langkah langkahnya
 
 Halaman lisensi git, perhatikan lisensi nya dengan seksama apabila anda tidak cocok dengan lisensi yang di berikan jangan melanjutkan installasi :)
 
