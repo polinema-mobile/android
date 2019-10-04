@@ -54,7 +54,7 @@
 - [Bab 7 - Android UI](07/00-pendahuluan.md)
   - [Splash Screen](07/01-splash-screen.md)
   - [View Pager](07/02-view-pager.md)
-  - [Bottom Navigation](07/03-bottom-navigation.md)
+  - [Bottom Navigation](07/03-bottom-navbar.md)
   - [Tugas](07/04-tugas.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
