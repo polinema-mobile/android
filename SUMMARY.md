@@ -36,6 +36,7 @@
   - [Android Bundle](04/04-bundle.md)
   - [Parcelable](04/05-parcelable.md)
 - [Bab 5 - Fragment](05/00-pendahuluan.md)
+
   - [Pengenalan Fragment](05/01-pengenalan-fragment.md)
   - [Embedded Fragment](05/02-embedded-fragment.md)
   - [Dynamic Fragment](05/03-dynamic-fragment.md)
@@ -50,5 +51,10 @@
   - [Listener](06/03-listener.md)
   - [Method](06/04-method.md)
   - [Tugas](06/05-tugas.md)
+- [Bab 7 - Android UI](07/00-pendahuluan.md)
+  - [Splash Screen](07/01-splash-screen.md)
+  - [View Pager](07/02-view-pager.md)
+  - [Bottom Navigation](07/03-bottom-navigation.md)
+  - [Tugas](07/04-tugas.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
