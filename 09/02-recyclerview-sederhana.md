@@ -359,7 +359,11 @@ Inner Class ini berfungsi sebagai pembuat view pada class ini dibuat variabel ya
 ```java
 
 public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
-
+    ...
+    @Override
+    public int getItemCount()    {
+        return (heroList != null) ? heroList.size() : 0;
+    }
     ...
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView heroName;
@@ -383,7 +387,7 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
 ...
     @Override
     public int getItemCount()    {
-        return heroList.size();
+        return (heroList != null) ? heroList.size() : 0;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
