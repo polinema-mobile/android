@@ -33,7 +33,6 @@ Perhatikan target sdk version yang anda gunakan pada file `build.gradle` untuk m
 Contoh dependency :
 
 ```gradle
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
