@@ -56,5 +56,8 @@
   - [View Pager](07/02-view-pager.md)
   - [Bottom Navigation](07/03-bottom-navbar.md)
   - [Tugas](07/04-tugas.md)
+- [Bab 8 - UTS](08/00-UTS.md)
+- [Bab 9 - RecyclerView](09/00-pendahuluan.md)
+  - [Konsep RecyclerView](07/01-splash-screen.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
