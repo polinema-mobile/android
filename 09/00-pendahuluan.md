@@ -14,5 +14,5 @@ Pada praktikum kali ini anda akan mempelajari lebih dalam mengenai RecyclerView.
 
 1. Laptop atau PC
 2. Android Studio
-3. [Starter Code](https://github.com/polinema-mobile/2019-mobile07). Silahkan
+3. [Starter Code](https://github.com/polinema-mobile/2019-mobile09). Silahkan
    fork pada akun GitHub anda masing-masing.
