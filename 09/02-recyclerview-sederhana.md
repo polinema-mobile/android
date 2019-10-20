@@ -19,7 +19,7 @@ Dependency yang digunakan pada project ini adalah dependency untuk recyclerview,
 Untuk sdk 29 sudah menggunakan `androidx`
 
 ```gradle
-implementation 'androidx.recyclerview:recyclerview:1.1.0'
+implementation 'androidx.recyclerview:recyclerview:1.1.0-beta05'
 ```
 
 Untuk sdk dibawah 29 menggunakan support library. Contoh untuk sdk 28 menggunakan versi recyclerview dibawah ini
@@ -38,7 +38,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta05'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
