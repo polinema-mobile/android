@@ -122,7 +122,7 @@ Bukalah file `activity_main.xml` kemudian hapus `textview` `hello world` nya
 
 ![0512actymain](images/0512actymain.png)
 
-Kemudian isikan sebuah recyclerview dan setting constraint nya untuk memenuhi seluruh layar
+Kemudian isikan sebuah recyclerview dan setting constraint nya untuk memenuhi seluruh layar, berikan id recyclerview ini `rvSuperHero`
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,8 +133,8 @@ Kemudian isikan sebuah recyclerview dan setting constraint nya untuk memenuhi se
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSuperHero"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -142,7 +142,8 @@ Kemudian isikan sebuah recyclerview dan setting constraint nya untuk memenuhi se
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        tools:layout_editor_absoluteY="8dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
@@ -339,6 +340,12 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
     @Override
     public int getItemCount()    {
         return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -358,7 +365,17 @@ Inner Class ini berfungsi sebagai pembuat view pada class ini dibuat variabel ya
 ```java
 
 public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
-
+    ...
+    @Override
+    public int getItemCount()    {
+        return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
+    }
     ...
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView heroName;
