@@ -31,6 +31,7 @@ View Pager merupakan fitur untuk membagi konten yang panjang pada android menjad
 ```
 
 - Ubah layout `activitiy_welcome.xml` dengan kode program berikut
+
   ```xml
   <?xml version="1.0" encoding="utf-8"?>
   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,8 +40,6 @@ View Pager merupakan fitur untuk membagi konten yang panjang pada android menjad
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:showIn="@layout/activity_welcome">
-  ```
-
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
@@ -82,8 +81,7 @@ View Pager merupakan fitur untuk membagi konten yang panjang pada android menjad
         android:background="@null"
         android:text="@string/skip"
         android:textColor="@android:color/white" />
-
-</RelativeLayout>
+  </RelativeLayout>
   ```
 
 - Edit file `WelcomeActivity.java` tambahkan class variabel sebagai berikut :
