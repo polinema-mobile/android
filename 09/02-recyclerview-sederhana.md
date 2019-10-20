@@ -308,52 +308,6 @@ Langkah selanjutnya adalah mengisi dan memahami fungsi dari masing masing functi
 
 ### Urutan Mengisi Function Pada Adapter
 
-#### Inner Class ViewHolder
-
-Inner Class ini berfungsi sebagai pembuat view pada class ini dibuat variabel yang menghubungkan id pada layout item_super_hero dengan variabel yang dapat digunakan pada saat mengisi nilai dari dataset.
-
-```java
-
-public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
-
-    ...
-    public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView heroName;
-        public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            //variabel disesuaikan dengan layout, karena pada layout item_super_hero terdapat satu
-            //TextView maka pada kode program ini dibuat satu TextView yang melakukan findViewById ke id layout yang bersesuaian
-            heroName = itemView.findViewById(R.id.heroName);
-        }
-    }
-}
-
-```
-
-#### Get Item Count
-
-Function yang paling mudah untuk di isi pada adapter ini adalah function `getItemCount()` function ini berfungsi mengembalikan jumlah data yang ingin ditampilkan pada `RecyclerView`, Tambahkan `heroList.size()` pada function `getItemCount()`
-
-```java
-public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
-...
-    @Override
-    public int getItemCount()    {
-        return (heroList != null) ? heroList.size() : 0;
-    }
-
-    public class MyViewHolder extends RecyclerView.ViewHolder {
-        public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            //variabel disesuaikan dengan layout, karena pada layout item_super_hero terdapat satu
-            //TextView maka pada kode program ini dibuat satu TextView yang melakukan findViewById ke id layout yang bersesuaian
-            TextView heroName = itemView.findViewById(R.id.heroName);
-        }
-    }
-}
-
-```
-
 #### OnCreateViewHolder
 
 Function ini berfungsi seperti `onCreate` pada activity dimana pada function ini juga dilakukan pendefenisian layout mana yang digunakan pada saat recyclerview dibuat. Jadi item layout yang dibuat sebelumnya di koneksikan di fungsi ini.
@@ -390,6 +344,58 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
+            TextView heroName = itemView.findViewById(R.id.heroName);
+        }
+    }
+}
+
+```
+
+#### Inner Class ViewHolder
+
+Inner Class ini berfungsi sebagai pembuat view pada class ini dibuat variabel yang menghubungkan id pada layout item_super_hero dengan variabel yang dapat digunakan pada saat mengisi nilai dari dataset.
+
+```java
+
+public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
+
+    ...
+    public class MyViewHolder extends RecyclerView.ViewHolder {
+        public TextView heroName;
+        public MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+            //variabel disesuaikan dengan layout, karena pada layout item_super_hero terdapat satu
+            //TextView maka pada kode program ini dibuat satu TextView yang melakukan findViewById ke id layout yang bersesuaian
+            heroName = itemView.findViewById(R.id.heroName);
+        }
+    }
+}
+
+```
+
+#### Get Item Count
+
+Function yang paling mudah untuk di isi pada adapter ini adalah function `getItemCount()` function ini berfungsi mengembalikan jumlah data yang ingin ditampilkan pada `RecyclerView`, Tambahkan `heroList.size()` pada function `getItemCount()`
+
+```java
+public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyViewHolder> {
+...
+    @Override
+    public int getItemCount()    {
+        return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
+    }
+
+    public class MyViewHolder extends RecyclerView.ViewHolder {
+        public MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+            //variabel disesuaikan dengan layout, karena pada layout item_super_hero terdapat satu
+            //TextView maka pada kode program ini dibuat satu TextView yang melakukan findViewById ke id layout yang bersesuaian
             TextView heroName = itemView.findViewById(R.id.heroName);
         }
     }
@@ -448,7 +454,13 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
 
     @Override
     public int getItemCount()    {
-        return heroList.size();
+        return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
