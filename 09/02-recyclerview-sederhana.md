@@ -339,7 +339,13 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
 
     @Override
     public int getItemCount()    {
-        return heroList.size();
+        return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -363,6 +369,12 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
     @Override
     public int getItemCount()    {
         return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
     ...
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -388,6 +400,12 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
     @Override
     public int getItemCount()    {
         return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -454,6 +472,12 @@ public class SuperHeroAdapter extends RecyclerView.Adapter<SuperHeroAdapter.MyVi
     @Override
     public int getItemCount()    {
         return (heroList != null) ? heroList.size() : 0;
+        /*for non shorthand people*/
+        /*if(heroList!=null){
+          return heroList.size();
+        }else{
+          return 0;
+        }*/
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
