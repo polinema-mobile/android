@@ -60,5 +60,6 @@
 - [Bab 9 - RecyclerView](09/00-pendahuluan.md)
   - [Konsep RecyclerView](09/01-konsep-recyclerview.md)
   - [Recyclerview Sederhana](09/02-recyclerview-sederhana.md)
+  - [Tugas](09/03-tugas.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
