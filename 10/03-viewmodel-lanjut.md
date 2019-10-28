@@ -143,3 +143,122 @@
  skor pada tim Home.
 - Jika semua fungsi telah berjalan tanpa ada masalah. Ulangi langkah yang sama
   pada tim Visitor.
+
+- Bukalah `VisitorFragment`, pada method `onCreate()` instansiasi `ViewModel`
+ untuk `sharedScore`
+
+  ```java
+  @Override
+  public void onCreate(@Nullable Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      sharedScore = ViewModelProviders.of(requireActivity()).get(SharedScore.class);
+  }
+  ```
+
+- Tambahkan observer untuk informasi skor visitor
+
+  ```java
+  @Override
+  public void onCreate(@Nullable Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      sharedScore = ViewModelProviders.of(requireActivity()).get(SharedScore.class);
+  }
+  ```
+
+- Tambahkan event click untuk memperbarui informasi skor
+
+  ```java
+  scoreDuaVisitor.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+          sharedScore.setScoreVisitor(scoreDefault+2);
+      }
+  });
+
+  scoreTigaVisitor.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+          sharedScore.setScoreVisitor(scoreDefault+3);
+      }
+  });
+
+  scoreSatuVisitor.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+          sharedScore.setScoreVisitor(scoreDefault+1);
+      }
+  }
+  ```
+- Deploy project, dan ujilah aplikasi apakah sudah bisa mengupdate informasi
+ skor pada tim Visitor.
+
+- Fungsionalitas skor telah berhasil diimplementasikan. Tetapi project aplikasi
+ belum bisa menampilkan informasi siapa pemenangnya. Untuk mengimplementasikan
+ fitur ini, bukalah file `WinnerFragment`.
+
+- Instansiasi ViewModel `SharedScore` pada method `onCreate()`
+
+  ```java
+  @Override
+  public void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    sharedScore =  ViewModelProviders.of(requireActivity()).get(SharedScore.class);
+  }
+  ```
+
+- Untuk menentukan pemenang dalam permainan basket, aplikasi memerlukan
+ informasi skor Home dan skor Visitor. Oleh karena itu dibutuhkan dua buah
+ observer untuk masing-masing tim. Tambahkan kode berikut pada method
+ `onViewCreated()`untuk mengimplementasikan.
+
+  ```java
+  sharedScore.getScoreVisitor().observe(requireActivity(), new Observer<Integer>() {
+      @Override
+      public void onChanged(Integer score) {
+         scoreVisitor = score;
+         if(scoreVisitor > scoreHome){
+             sharedScore.setWinner(false);
+         }
+      }
+  });
+
+  sharedScore.getScoreHome().observe(requireActivity(), new Observer<Integer>() {
+      @Override
+      public void onChanged(Integer score) {
+          scoreHome = score;
+          if(scoreVisitor < scoreHome){
+              sharedScore.setWinner(true);
+          }
+      }
+  });
+  ```
+- Informasi pemenang akan ditampilkan pada TextView. Untuk memperbarui informasi
+ ini, diperlukan sebuah observer lagi.
+
+  ```java
+  sharedScore.getWinner().observe(requireActivity(), new Observer<Boolean>() {
+      @Override
+      public void onChanged(Boolean winner) {
+          if (winner){
+              txtWinner.setText("Home Win");
+          } else{
+              txtWinner.setText("Visitor Win");
+          }
+      }
+  });
+  ```
+
+- Untuk mengembalikan nilai (reset), cukup dilakukan dengan mengembalikan nilai
+ skor masing-masing tim menjadi 0. Sedangkan untuk informasi pemenang akan
+ diupdate secara otomatis melalui observer. Tambahkan kode berikut pada method
+ `onViewCreated()`
+
+  ```java
+  btnReset.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+          sharedScore.setScoreVisitor(0);
+          sharedScore.setScoreHome(0);
+      }
+  });
+  ```
