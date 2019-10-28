@@ -60,5 +60,9 @@
 - [Bab 9 - RecyclerView](09/00-pendahuluan.md)
   - [Konsep RecyclerView](09/01-konsep-recyclerview.md)
   - [Recyclerview Sederhana](09/02-recyclerview-sederhana.md)
+- [Bab 10 - Android Arsitektur](10/00-pendahuluan.md)
+  - [Android Arsitektur](10/01-arsitektur.md)
+  - [ViewModel Sederhana](10/02-viewmodel-sederhana.md)
+  - [ViewModel Lanjut](10/03-viewmodel-lanjut.md)
 
 * [Tips - Update Forked Repository](./tips/update-forked-repository.md)
