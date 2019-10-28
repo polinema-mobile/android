@@ -51,18 +51,23 @@
   - [Listener](06/03-listener.md)
   - [Method](06/04-method.md)
   - [Tugas](06/05-tugas.md)
+
 - [Bab 7 - Android UI](07/00-pendahuluan.md)
   - [Splash Screen](07/01-splash-screen.md)
   - [View Pager](07/02-view-pager.md)
   - [Bottom Navigation](07/03-bottom-navbar.md)
   - [Tugas](07/04-tugas.md)
+
 - [Bab 8 - UTS](08/00-UTS.md)
+
 - [Bab 9 - RecyclerView](09/00-pendahuluan.md)
   - [Konsep RecyclerView](09/01-konsep-recyclerview.md)
   - [Recyclerview Sederhana](09/02-recyclerview-sederhana.md)
+  - [Tugas](09/03-tugas.md)
+
 - [Bab 10 - Android Arsitektur](10/00-pendahuluan.md)
   - [Android Arsitektur](10/01-arsitektur.md)
   - [ViewModel Sederhana](10/02-viewmodel-sederhana.md)
   - [ViewModel Lanjut](10/03-viewmodel-lanjut.md)
 
-* [Tips - Update Forked Repository](./tips/update-forked-repository.md)
+- [Tips - Update Forked Repository](./tips/update-forked-repository.md)
