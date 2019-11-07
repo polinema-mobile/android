@@ -72,5 +72,6 @@
 
 - [Bab 11 - Data Persistence 1](11/00-pendahuluan.md)
   - [Shared Preferences](11/01-shared-preferences.md)
+  - [Settings](11/02-settings.md)
 
 - [Tips - Update Forked Repository](./tips/update-forked-repository.md)

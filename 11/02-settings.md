@@ -1,4 +1,4 @@
-# Pengaturan Aplikasi
+# Settings
 
 Anda dapat mengatur kebutuhan aplikasi sesuai dengan kebutuhan pengguna.
 Pengaturan ini akan disimpan dalam `SharedPreferences`. Untuk memudahkan, anda
