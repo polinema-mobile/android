@@ -6,7 +6,13 @@ Jika anda membutuhkan sekumpulan data dengan tipe key-value yang ingin anda
 simpan dalam aplikasi mobile, anda dapat menggunakan `SharedPreferences` API.
 Data dalam `SharedPreferences` akan disimpan dalam sebuah file yang mengandung
 key-value secara berpasangan. Setiap file ini dikelola oleh Android framework
-yang aksesnya dapat diatur secara private atau dibagikan.
+yang aksesnya dapat diatur secara private atau dibagikan. Namun dengan catatan,
+data  yang dapat disimpan hanyalah data  yang tipe datanya sederhana seperti:
+
+- String
+- int/long/float
+- boolean
+- DateTime
 
 Selain digunakan untuk penyimpanan data sederhana, pemanfaatan
 `SharedPreferences` digunakan juga untuk menyimpan pengaturan aplikasi. Dengan

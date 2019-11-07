@@ -193,7 +193,18 @@ menggunakan method `setPreferencesFromResource(R.xml.nama_pref, rootKey)`.
   ```
 - Pada tahapan ini, anda telah berhasil untuk membuat pengaturan aplikasi
  android.
+- Silahkan anda buka file `Application.java`, file ini berisi instansiasi
+ SharedPreferences yang dapat diakses dari satu project android. Pendekatan ini
+ digunakan untuk memudahkan akses dan instansiasi object SharedPreferences.
+
+- Untuk mendapatkan akses SharedPreferences anda dapat menggunakan kode berikut.
+
+  ```java
+  SharedPreferences preferences = Application.getPreferences();
+  ```
+
 - Selanjutnya, perhatikan pada fragment `WidgetsFragment`, `DialogsFragments`
  serta `AdvancedFragment`. Anda akan menjumpai logika untuk pengambilan nilai
  pengaturan yang tersimpan pada SharedPreferences.
+
 - Jalankan aplikasi serta amati perubahan yang terjadi.
