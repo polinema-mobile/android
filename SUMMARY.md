@@ -70,4 +70,7 @@
   - [ViewModel Sederhana](10/02-viewmodel-sederhana.md)
   - [ViewModel Lanjut](10/03-viewmodel-lanjut.md)
 
+- [Bab 11 - Data Persistence 1](11/00-pendahuluan.md)
+  - [Shared Preferences](11/01-shared-preferences.md)
+
 - [Tips - Update Forked Repository](./tips/update-forked-repository.md)
