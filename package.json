@@ -1,0 +1,18 @@
+{
+  "name": "2019-jobsheet",
+  "version": "1.0.0",
+  "description": "Mobile Programming Jobsheet 2019",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "book": "gitbook pdf . _book/pemrograman-mobile.pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook": "git+https://github.com/dhanifudin/gitbook.git",
+    "gitbook-cli": "^2.3.2"
+  }
+}
